@@ -47,10 +47,6 @@ body {
   line-height: 1.5;
 }
 
-.navigation-list {
-  list-style: none;
-}
-
 .contacts {
   color: var(--paragraph-color);
   text-decoration: none;
