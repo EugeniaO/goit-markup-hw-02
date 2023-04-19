@@ -1,16 +1,18 @@
 :root {
-  --light-color: #ffffff;
+  --white-color: #ffffff;
   --hover-color: #404bbf;
   --main-color: #2e2f42;
   --paragraph-color: #434455;
   --brand-color: #4d5ae5;
-  --inactive-button-color: #f4f4fd;
+  --light-color: #f4f4fd;
 }
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-color);
 }
+
+/* index.html page */
 
 /* header */
 
@@ -54,17 +56,17 @@ body {
   text-decoration: underline;
 }
 
-.button {
+.active-button {
   background-color: var(--brand-color);
-  color: var(--light-color);
+  color: var(--white-color);
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   font-family: "Roboto";
 }
 
-.button:hover,
-.button:focus {
+.active-button:hover,
+.active-button:focus {
   background-color: var(--hover-color);
 }
 
@@ -76,9 +78,75 @@ body {
 .main-heading {
   font-size: 56px;
   line-height: 1.1;
-  color: var(--light-color);
+  color: var(--white-color);
   text-align: center;
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* features */
+
+.paragraph-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.paragraph-text {
+  color: var(--paragraph-color);
+  line-height: 1.5;
+}
+
+/* project examples */
+
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+/* team section */
+
+.team-section {
+  background-color: var(--light-color);
+}
+
+.team-member-card {
+  background-color: var(--white-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--main-color);
+}
+
+.logo-3 {
+  color: var(--light-color);
+}
+.footer-text {
+  color: var(--light-color);
+  line-height: 1.5;
+}
+
+/* portfolio page */
+
+/* filter */
+
+.button {
+  background-color: var(--light-color);
+  color: var(--brand-color);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Roboto";
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+
+/* portfolio section */
