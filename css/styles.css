@@ -100,14 +100,16 @@ body {
 /* features */
 
 .paragraph-name {
+  color: var(--main-color)
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .paragraph-text {
-  color: var(--paragraph-color);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* project examples */
@@ -134,7 +136,7 @@ body {
   background-color: var(--main-color);
 }
 
-.logo-3 {
+.logo-alternative {
   color: var(--light-color);
 }
 .footer-text {
